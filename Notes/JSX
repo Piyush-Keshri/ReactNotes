@@ -1,0 +1,16 @@
+<!-- Normal Js Code -->
+// var h1 = document.createElement("h1");
+// h1.innerHTML = "Hello World";
+// document.getElementById("root").appendChild(h1);
+
+<!-- Using JSX -->
+// ReactDOM.render(<h1>Hello World!!</h1>, document.getElementById("root"));
+
+It is called JSX, and it is a syntax extension to JavaScript. 
+We recommend using it with React to describe what the UI should look like. 
+JSX may remind you of a template language, but it comes with the full power of JavaScript.
+
+JSX produces React “elements”.
+
+React doesnot require using JSX, but most people find it helpful as a visual aid when working with UI inside the JavaScript code.
+ It also allows React to show more useful error and warning messages.
