@@ -3,6 +3,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 import "./index.css";
 
 // This method creates an extra div in the html code toavoid it we use react fragments.
@@ -131,3 +132,32 @@ ReactDOM.render(
 */
 
 // Challenge 3
+/*
+const hour = new Date().getHours();
+var greeting;
+const cssStyle = {};
+
+if (0 <= hour <= 11) {
+  greeting = "Good Morning";
+  cssStyle.color = "green";
+}
+if (12 <= hour <= 19) {
+  greeting = "Good AfterNoon";
+  cssStyle.color = "orange";
+}
+if (19 < hour) {
+  greeting = "Good Night";
+}
+ReactDOM.render(
+  <>
+    <h1>
+      Hello Sir,<span style={cssStyle}>{greeting}</span>{" "}
+    </h1>
+  </>,
+  document.getElementById("root")
+);
+*/
+
+// React Components | Functional Components
+
+ReactDOM.render(<App></App>, document.getElementById("root"));
