@@ -160,4 +160,8 @@ ReactDOM.render(
 
 // React Components | Functional Components
 
-ReactDOM.render(<App></App>, document.getElementById("root"));
+// ReactDOM.render(<App></App>, document.getElementById("root"));
+
+import { add, sub, div, mult } from "./Calc";
+
+ReactDOM.render(<App />, document.getElementById("root"));

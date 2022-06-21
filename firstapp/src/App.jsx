@@ -1,12 +1,15 @@
 import React from "react";
-import Heading from "./Heading.jsx";
-import P from "./P.jsx";
+import { add, sub,div,mult} from './Calc'
 
 function App() {
   return (
     <>
-      <Heading />
-      <P />
+      <ul>
+      <li>Sum of Numbers is {add(20, 30)}</li>
+      <li>Difference of Two numbers is{sub(40, 10)}</li>
+      <li>Division of two Numbers is {div(15, 3)}</li>
+      <li>Multiplication of two Numbers is {mult(4, 9)}</li>
+    </ul>
     </>
   );
 }
